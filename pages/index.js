@@ -15,7 +15,7 @@ export default function Pokemones({pokemones}) {
  
   return (
     <div>
-      <p>Pokemones</p>
+      <p>Mi App de Pokemones by Duverx</p>
       <ul>
       {pokemones.map(pokemon=> <Pokemon pokemon={pokemon} key={pokemon.name} />)}
       </ul>
